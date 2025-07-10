@@ -5,7 +5,7 @@ function Home() {
     <div className="
         flex 
         justify-center 
-        bg-indigo-900
+        bg-indigo-600
     ">
         <div className="
             container 
@@ -25,9 +25,9 @@ function Home() {
                     text-5xl 
                     font-bold
                 ">
-                    Seja Bem Vinde!
+                    Seja Bem Vindo(a)!
                 </h2>
-                <p className="text-xl">Expresse aqui seus pensamentos e opiniões</p>
+                <p className="text-xl">Expresse aqui suas melhores ideias</p>
                 <div className="
                     flex
                     justify-around

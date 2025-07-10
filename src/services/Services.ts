@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://blogpessoal-xdnu.onrender.com",
+    baseURL: "https://blogpessoal-spring-t82.onrender.com",
     //baseURL: "http://localhost:8080",
 })
 

@@ -8,6 +8,8 @@ import { AuthProvider } from './contexts/AuthContext'
 import ListaTemas from './components/temas/ListaTemas'
 import FormTema from './components/temas/FormTema'
 import DeletarTema from './components/temas/DeletarTemas'
+import Perfil from './pages/perfil/Perfil'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 	return (
@@ -25,6 +27,7 @@ function App() {
 							<Route path="/cadastrartema" element={<FormTema />} />
 							<Route path="/editartema/:id" element={<FormTema />} />
 							<Route path="/deletartema/:id" element={<DeletarTema />} />
+							<Route path="/perfil" element={<Perfil />} />
 						</Routes>
 					</div>
 					<Footer />
